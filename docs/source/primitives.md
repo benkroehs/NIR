@@ -78,8 +78,8 @@ nir.NIRGraph(
         "output": nir.Output{"output": np.array([1])}
     },
     edges = [
-        ("Input", "LIF"),
-        ("LIF"  , "Output"),
+        ("input", "lif"),
+        ("lif"  , "output"),
     ],
 )
 ```
