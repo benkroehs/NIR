@@ -1,7 +1,7 @@
 # Supported simulators and hardware
 
-**NIR is currently supported by 7 simulators and 4 hardware platforms**, allowing users to seamlessly move between any of these platforms.
-The 7 simulators include Lava-DL, Nengo, Norse, Rockpool, Sinabs, snnTorch, and Spyx.
+**NIR is currently supported by 8 simulators and 4 hardware platforms**, allowing users to seamlessly move between any of these platforms.
+The 8 simulators include jaxsnn, Lava-DL, Nengo, Norse, Rockpool, Sinabs, snnTorch, and Spyx.
 The 4 hardware platforms include Intel Loihi (via Lava-DL), Xylo, Speck, and SpiNNaker2.
 
 The table below shows the integration progress for the respective frameworks.
@@ -10,6 +10,7 @@ By "reading" a NIR graph, we mean converting it into a platform-specific represe
 
 | **Framework** | **Write to NIR** | **Read from NIR** | **Examples** |
 | --------------- | :--: | :--: | :------: |
+| [jaxsnn](https://github.com/electronic-visions/jaxsnn) | ⬚ | ✓ | [jaxsnn examples](https://neuroir.org/docs/examples/jaxsnn/nir-conversion.html) |
 | [Lava-DL](https://github.com/lava-nc/lava-dl) | ✓ | ⬚ | [Lava/Loihi examples](https://neuroir.org/docs/examples/lava/nir-conversion.html) |
 | [Nengo](https://nengo.ai) | ✓ | ✓ | [Nengo examples](https://neuroir.org/docs/examples/nengo/nir-conversion.html) |
 | [Norse](https://github.com/norse/norse) | ✓ | ✓ | [Norse examples](https://neuroir.org/docs/examples/norse/nir-conversion.html) |
